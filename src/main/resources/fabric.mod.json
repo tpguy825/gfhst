@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pogclient",
+  "version": "${version}",
+
+  "name": "PogClient",
+  "description": "poggers minecraft client",
+  "authors": [
+    "tpguy825"
+  ],
+  "contact": {
+    "homepage": "https://pogclient.tpyt.uk/",
+    "sources": "https://github.com/tpguy825/pogclient"
+  },
+
+  "license": "gpl-3.0",
+  "icon": "assets/pogclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tpguy825.pogclient.PogClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
