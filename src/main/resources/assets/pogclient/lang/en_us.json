@@ -1,4 +1,6 @@
 {
   "item.pogclient.ruby": "Ruby",
-  "block .pogclient.ruby_block": "Ruby Block"
+  "block.pogclient.ruby_block": "Ruby Block",
+  "itemGroup.pogclient.general": "PogClient Items",
+  "itemGroup.pogclient.other": "Other Stuff"
 }
