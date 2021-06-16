@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pogclient:blocks/ruby_block"
+  }
+}

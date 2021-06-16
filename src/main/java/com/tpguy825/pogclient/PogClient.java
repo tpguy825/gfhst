@@ -1,5 +1,6 @@
 package com.tpguy825.pogclient;
 
+import com.tpguy825.pogclient.registry.ModBlocks;
 import com.tpguy825.pogclient.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -10,5 +11,6 @@ public class PogClient implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 }
